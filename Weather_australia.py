@@ -84,3 +84,6 @@ with col1:
 with col2:
  st.write("Percent Raining")
  st.write(round((result_prob[0][1])*100, 2),"%")
+ 
+name_title = '<p style="font-family: Georgia, serif; color:Green; font-size: 10px;">Create by Sira Haruethaipree</p>'
+st.markdown(name_title, unsafe_allow_html=True)
